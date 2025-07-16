@@ -20,7 +20,11 @@ SELECT COUNT(DISTINCT customer_id) AS unique_customers
 FROM orders;
 ```
 # Limit
-limits the number of rows
+limits the number of rows 
+- we want to retrieve 15 rows from the table starting from row 11.
+```sql
+SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;
+```
 # Order By: Sort
 
 ```sql
