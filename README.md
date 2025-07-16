@@ -6,4 +6,8 @@ code snippets reminding me of sql syntax.
 /* This is 
    a multi-line comment */
 SELECT * FROM employees;
+```
+# Select
+```sql
+SELECT <COLUMNS> FROM TABLE_1 WHERE <predicate> ;
 
