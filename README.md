@@ -5,7 +5,7 @@ code snippets reminding me of sql syntax.
 -- This is a single-line comment
 /* This is 
    a multi-line comment */
-SELECT * FROM employees;
+SELECT DISTINCT * FROM employees;
 ```
 # Select
 ```sql
