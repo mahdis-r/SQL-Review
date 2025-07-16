@@ -5,12 +5,22 @@ code snippets reminding me of sql syntax.
 -- This is a single-line comment
 /* This is 
    a multi-line comment */
-SELECT DISTINCT * FROM employees;
+SELECT * FROM employees LIMIT 10;
 ```
 # Select
 ```sql
 SELECT <COLUMNS> FROM TABLE_1 WHERE <predicate> ;
 ```
+# Distinct
+returns unique rows
+# Count
+counts the number of rows
+```sql
+SELECT COUNT(DISTINCT customer_id) AS unique_customers
+FROM orders;
+```
+# Limit
+limits the number of rows
 # Order By: Sort
 
 ```sql
